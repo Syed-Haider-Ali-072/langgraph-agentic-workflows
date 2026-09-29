@@ -1,0 +1,1 @@
+llm = ChatGroq(model="openai/gpt-oss-120b", temperature=0.2)

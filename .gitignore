@@ -1,0 +1,25 @@
+# Secrets (API keys)
+.env
+.env.*
+!.env.example
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Python
+__pycache__/
+*.pyc
+
+# Saved vector indexes (conditional workflow)
+faiss_cache/
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
